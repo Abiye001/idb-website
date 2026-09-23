@@ -1,0 +1,21 @@
+{
+  "locations": [
+    { "name": "Ooni's Palace", "category": "Palace", "status": "open", "image": "assets/locations/oonis-palace.png", "description": "The historic palace of the Ooni of Ife, the spiritual leader of the Yoruba people. A center of cultural and traditional significance." },
+    { "name": "White House at the Palace", "category": "Palace", "status": "open", "image": "assets/locations/white-house.png", "description": "An iconic white colonial-style building within the palace complex used for official functions." },
+    { "name": "Geru Hall at the Palace", "category": "Palace", "status": "open", "image": "assets/locations/geru-hall.png", "description": "A significant hall within the palace complex used for meetings and royal ceremonies." },
+    { "name": "Museum of Antiquities", "category": "Palace", "status": "open", "image": "assets/locations/museum.png", "description": "A museum housing ancient artifacts and preserving the history of Ile-Ife for generations." },
+    { "name": "Postherds at the Museum", "category": "Palace", "status": "open", "image": "assets/locations/postherds.png", "description": "A traditional structure within the museum grounds historically used for the care of royal livestock." },
+    { "name": "Adire Shop", "category": "Mere", "status": "open", "image": "assets/locations/adire-shop.png", "description": "A shop showcasing traditional Adire cloth weaving and dyeing in Ile-Ife." },
+    { "name": "Ogun Laadin", "category": "Enuwa", "status": "limited", "image": "assets/locations/ogun-laadin.png", "description": "Sacred shrine dedicated to the Yoruba deity Ogun, the god of iron and war." },
+    { "name": "Kensington Adebutu Hall", "category": "Enuwa", "status": "open", "image": "assets/locations/kensington-hall.png", "description": "A modern community hall at Enuwa Square used for cultural performances and public events." },
+    { "name": "Palace Chalets", "category": "Rodo", "status": "limited", "image": "assets/locations/palace-chalets.png", "description": "Guest chalets associated with the palace grounds, available with limited access." },
+    { "name": "Oduduwa Statue at OAU", "category": "Campus", "status": "open", "image": "assets/locations/oduduwa-statue-oau.png", "description": "A guardian statue of Oduduwa, the progenitor of the Yoruba race, standing prominently at Obafemi Awolowo University's campus." },
+    { "name": "Ife Native Authority Offices", "category": "Others", "status": "open", "image": "assets/locations/native-authority.png", "description": "Historic administrative offices of the Ife local government authority." },
+    { "name": "The Independence Tower", "category": "Others", "status": "open", "image": "assets/locations/independence-tower.png", "description": "A prominent tower built to mark Nigerian independence, a key Ile-Ife landmark." },
+    { "name": "The Central Mosque", "category": "Others", "status": "open", "image": "assets/locations/central-mosque.png", "description": "A prominent mosque in Ile-Ife, known for its unique architecture." },
+    { "name": "Yeyemolu Ancient Wall", "category": "Others", "status": "open", "image": "assets/locations/yeyemolu-wall.png", "description": "An ancient wall with historical significance, located in Ile-Ife." },
+    { "name": "Okoro Compound (Court of Laws of Ife)", "category": "Others", "status": "open", "image": "assets/locations/okoro-compound.png", "description": "A prominent court complex with historical significance, located in Ile-Ife." },
+    { "name": "Oke Mogun Shrine", "category": "Others", "status": "open", "image": "assets/locations/oke-mogun-shrine.png", "description": "A significant religious site with historical importance, located in Ile-Ife." },
+    { "name": "St. Paul's Cathedral, Ayegbaju", "category": "Others", "status": "open", "image": "assets/locations/st-pauls-cathedral.png", "description": "A historic cathedral with architectural significance, located in Ayegbaju." }
+  ]
+}

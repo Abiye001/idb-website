@@ -1,0 +1,74 @@
+{
+  "members": [
+    {
+      "name": "Gbenga Adefaye",
+      "role": "President, IDB",
+      "photo": "assets/leadership/gbenga-adefaye.jpg"
+    },
+    {
+      "name": "Kehinde Bamigbetan",
+      "role": "Second Vice President",
+      "photo": "assets/leadership/kehinde-bamigbetan.jpg"
+    },
+    {
+      "name": "Lawrence Omidiora",
+      "role": "Secretary General",
+      "photo": "assets/leadership/lawrence-omidiora.jpg"
+    },
+    {
+      "name": "Hon. Ipoola Ahmed Omisore",
+      "role": "FRPA, MHA",
+      "photo": "assets/leadership/ipoola-ahmed-omisore.jpg"
+    },
+    {
+      "name": "Prof. Rufus A. Adedoyin",
+      "role": "Board Member",
+      "photo": "assets/leadership/rufus-adedoyin.jpg"
+    },
+    {
+      "name": "Kunle Omisore",
+      "role": "Board Member",
+      "photo": "assets/leadership/kunle-omisore.jpg"
+    },
+    {
+      "name": "Adetogun Adewuyi",
+      "role": "Board Member",
+      "photo": "assets/leadership/adetogun-adewuyi.jpg"
+    },
+    {
+      "name": "Bamikole Omisore",
+      "role": "Board Member",
+      "photo": "assets/leadership/bamikole-omisore.jpg"
+    },
+    {
+      "name": "Busayo Obisakin",
+      "role": "Board Member",
+      "photo": "assets/leadership/busayo-obisakin.jpg"
+    },
+    {
+      "name": "Adenike Adeyele Iyelolu",
+      "role": "Board Member",
+      "photo": "assets/leadership/adenike-adeyele-iyelolu.jpg"
+    },
+    {
+      "name": "Abimbola Oladimeji Samuel",
+      "role": "Board Member",
+      "photo": "assets/leadership/abimbola-oladimeji-samuel.jpg"
+    },
+    {
+      "name": "Awofisayo Olalekan",
+      "role": "Board Member",
+      "photo": "assets/leadership/awofisayo-olalekan.jpg"
+    },
+    {
+      "name": "Awoyemi Olatunde Alade",
+      "role": "Board Member",
+      "photo": "assets/leadership/awoyemi-olatunde-alade.jpg"
+    },
+    {
+      "name": "Isaac Olayinka Egbewole",
+      "role": "Board Member",
+      "photo": "assets/leadership/isaac-olayinka-egbewole.jpg"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "items": [
+    {
+      "title": "Ife Museum Renovation",
+      "status": "ongoing",
+      "statusLabel": "Ongoing",
+      "image": "assets/projects/ife-museum.jpg",
+      "description": "Restoring the town's museum wing to properly display and protect its terracotta and bronze collection.",
+      "progress": 65,
+      "progressLabel": "65% complete"
+    },
+    {
+      "title": "Oduduwa Grove Access Road",
+      "status": "ongoing",
+      "statusLabel": "Ongoing",
+      "image": "assets/projects/oduduwa-grove-road.jpg",
+      "description": "Rehabilitating the road connecting the town center to the Grove to support both residents and visitors.",
+      "progress": 40,
+      "progressLabel": "40% complete"
+    },
+    {
+      "title": "Ward Borehole Program (Phase 1)",
+      "status": "completed",
+      "statusLabel": "Completed",
+      "image": "assets/projects/ward-borehole-phase1.jpg",
+      "description": "Clean water access delivered to five wards previously reliant on unsafe sources.",
+      "progress": 100,
+      "progressLabel": "Completed"
+    },
+    {
+      "title": "Youth Skills Center",
+      "status": "completed",
+      "statusLabel": "Completed",
+      "image": "assets/projects/youth-skills-center.jpg",
+      "description": "A permanent training facility now hosting the Board's vocational and digital-skills programs.",
+      "progress": 100,
+      "progressLabel": "Completed"
+    },
+    {
+      "title": "Palace Heritage Trail",
+      "status": "planned",
+      "statusLabel": "Planned",
+      "image": "assets/projects/palace-heritage-trail.jpg",
+      "description": "A walkable, signposted route connecting Ife's major sacred and historical sites for visitors and students.",
+      "progress": 5,
+      "progressLabel": "In planning"
+    },
+    {
+      "title": "Healthcare",
+      "status": "planned",
+      "statusLabel": "Planned",
+      "image": "assets/projects/health-centre.png",
+      "description": "Expanding access to primary healthcare facilities across Ife's wards, pending funding.",
+      "progress": 0,
+      "progressLabel": "Awaiting funding"
+    }
+  ]
+}

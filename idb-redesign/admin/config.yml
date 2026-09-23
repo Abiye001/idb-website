@@ -1,0 +1,111 @@
+backend:
+  name: git-gateway
+  branch: main
+
+local_backend: true
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+publish_mode: simple
+
+collections:
+
+  - name: "locations"
+    label: "Locations to Visit"
+    files:
+      - file: "content/locations.json"
+        label: "Locations List"
+        name: "locations"
+        fields:
+          - label: "Locations"
+            name: "locations"
+            widget: "list"
+            summary: "{{name}} — {{category}}"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - label: "Category"
+                name: "category"
+                widget: "select"
+                options: ["Palace", "Enuwa", "Mere", "Rodo", "Campus", "Others"]
+              - label: "Visitor Status"
+                name: "status"
+                widget: "select"
+                options: [{ label: "Open to Visitors", value: "open" }, { label: "Limited Access", value: "limited" }]
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Description", name: "description", widget: "text" }
+
+  - name: "news"
+    label: "News Articles"
+    files:
+      - file: "content/news.json"
+        label: "News List"
+        name: "news"
+        fields:
+          - label: "Articles"
+            name: "articles"
+            widget: "list"
+            summary: "{{title}} — {{date}}"
+            fields:
+              - { label: "ID (short, no spaces, used in the page link)", name: "id", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Category", name: "category", widget: "string" }
+              - { label: "Date", name: "date", widget: "string" }
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Summary (shown on the News list)", name: "summary", widget: "text" }
+              - { label: "Full Article Body", name: "body", widget: "text" }
+
+  - name: "leadership"
+    label: "Board Leadership"
+    files:
+      - file: "content/leadership.json"
+        label: "Leadership List"
+        name: "leadership"
+        fields:
+          - label: "Board Members"
+            name: "members"
+            widget: "list"
+            summary: "{{name}} — {{role}}"
+            fields:
+              - { label: "Full Name", name: "name", widget: "string" }
+              - { label: "Role / Title", name: "role", widget: "string" }
+              - { label: "Photo", name: "photo", widget: "image" }
+
+  - name: "economy"
+    label: "Economy Programs"
+    files:
+      - file: "content/economy-programs.json"
+        label: "Programs List"
+        name: "programs"
+        fields:
+          - label: "Programs"
+            name: "programs"
+            widget: "list"
+            summary: "{{title}}"
+            fields:
+              - { label: "Program Name", name: "title", widget: "string" }
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Description", name: "description", widget: "text" }
+
+  - name: "projects"
+    label: "Projects"
+    files:
+      - file: "content/projects.json"
+        label: "Projects List"
+        name: "projects"
+        fields:
+          - label: "Projects"
+            name: "items"
+            widget: "list"
+            summary: "{{title}} — {{statusLabel}}"
+            fields:
+              - { label: "Project Name", name: "title", widget: "string" }
+              - label: "Status"
+                name: "status"
+                widget: "select"
+                options: ["ongoing", "completed", "planned"]
+              - { label: "Status Label (shown on the badge)", name: "statusLabel", widget: "string" }
+              - { label: "Image", name: "image", widget: "image", required: false }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Progress Percent (0-100)", name: "progress", widget: "number", min: 0, max: 100 }
+              - { label: "Progress Label (shown under the bar)", name: "progressLabel", widget: "string" }

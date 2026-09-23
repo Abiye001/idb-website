@@ -1,0 +1,24 @@
+{
+  "programs": [
+    {
+      "title": "Skills Acquisition",
+      "image": "assets/skill-acquisition.webp",
+      "description": "Vocational training in trades and digital skills for young people across Ife's wards."
+    },
+    {
+      "title": "Small Business Grants",
+      "image": "assets/business-grants.webp",
+      "description": "Seed funding and mentorship for local entrepreneurs and returning indigenes starting ventures at home."
+    },
+    {
+      "title": "Agricultural Modernization",
+      "image": "assets/agriculture.png",
+      "description": "Supporting farming cooperatives with better tools, storage, and market access."
+    },
+    {
+      "title": "Education Support",
+      "image": "assets/education.jpg",
+      "description": "Partnering with institutions like Obafemi Awolowo University to expand access and opportunity for Ife's students."
+    }
+  ]
+}
